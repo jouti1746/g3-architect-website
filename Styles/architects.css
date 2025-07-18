@@ -40,14 +40,25 @@ color: #F3F3F3;
 .white-color{
 color: #FFFFFF;
 }
+.bg-light{
+    background-color:rgba(255, 144, 14, 0.1) ;
+}
 
 
 /* header styles */
+header{
+    
+}
 
 
 /* navbar related styles */
 .navbar{
     justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-weight: bold;
+    font-size: 3rem;
 }
 
 .nav-links{
@@ -61,5 +72,18 @@ color: #FFFFFF;
 .nav-link{
     text-decoration: none;
     font-weight: 500;
+    
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* Banner Styles */
+.banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-titel{
     
 }
