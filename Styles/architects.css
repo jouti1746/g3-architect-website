@@ -9,3 +9,57 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* shared styles */
+.display-flex{
+    display: flex;
+
+}
+.dark-01{
+    color: #131313;
+}
+.dark-02{
+    color: #424242;
+
+}
+.dark-03{
+color: #727272;
+}
+.dark-04{
+color: #A1A1A1;
+}
+.dark-05{
+color: #D0D0D0;
+}
+.dark-06{
+color: #E7E7E7;
+}
+.dark-07{
+color: #F3F3F3;
+}
+.white-color{
+color: #FFFFFF;
+}
+
+
+/* header styles */
+
+
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+}
+
+.nav-links{
+    gap: 30px;
+
+}
+.nav-item{
+    list-style: none;
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    
+}
